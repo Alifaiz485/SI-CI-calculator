@@ -1,0 +1,106 @@
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+  background: rgb(160, 157, 157);
+}
+.container {
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
+  height: 480px;
+  width: 570px;
+  background: white;
+}
+
+.container h1 {
+  margin: 10px;
+}
+.inpSection {
+  margin: 20px 50px;
+  text-align: left;
+}
+input {
+  color: black;
+  font-weight: 650;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px rgba(214, 202, 202, 0.05);
+  font-size: 18px;
+  padding: 15px;
+  height: 35px;
+  margin: 10px;
+  display: flex;
+  width: 20vw;
+}
+.button button {
+  padding: 10px;
+  margin: 10px 60px;
+  font-size: 18px;
+  font-weight: 650;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(224, 217, 217, 0.5);
+}
+.result {
+  position: relative;
+  margin: 20px 0;
+}
+label {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#amount {
+  border: 2px solid black;
+}
+.amt {
+  margin-bottom: 35px;
+}
+
+.rate {
+  margin-bottom: 35px;
+}
+#time {
+  border: 2px solid black;
+  float: 60%;
+}
+#divH {
+  display: none;
+  float: left;
+  margin: 0 3px;
+}
+ul {
+  list-style-type: none;
+  float: left;
+  margin: 0 3px;
+}
+li {
+  float: left;
+  margin: 0 3px;
+}
+#Eror {
+  display: none;
+  background-color: red;
+  text-align: center;
+  font-size: larger;
+}
+#Errr {
+  display: none;
+  background-color: red;
+  text-align: center;
+  font-size: larger;
+}
