@@ -160,3 +160,6 @@ else if(document.getElementById('DifInput').checked){
 function updateTextInput(val) {
     document.getElementById('textInput').value=val; 
   }
+function Ut(val) {
+    document.getElementById('textInput').value=val; 
+  }
